@@ -1,7 +1,6 @@
 import React from "react";
 import { googleLogout } from "@react-oauth/google";
 import { useNavigate } from "react-router";
-// import './navbar.css'
 
 export default function Navbar() {
   const navigate = useNavigate();
